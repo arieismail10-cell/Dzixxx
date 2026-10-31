@@ -37,6 +37,7 @@ border-radius: 50%;
 overflow: hidden;
 margin-bottom: 15px;
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+background-color: white; /* Biar aman kalau gambar transparan */
 }
 .profile-img {
 width: 100%;
@@ -46,7 +47,7 @@ object-fit: cover;
 .name {
 color: white;
 font-size: 24px;
-font-weight: 500;
+font-weight: 600;
 margin-bottom: 30px;
 }
 .links-container {
@@ -66,8 +67,8 @@ color: #333;
 box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 transition: transform 0.2s;
 }
-.link-item:hover {
-transform: scale(1.02);
+.link-item:active {
+transform: scale(0.98);
 }
 .icon-box {
 width: 45px;
@@ -76,6 +77,10 @@ border-radius: 50%;
 overflow: hidden;
 margin-right: 15px;
 flex-shrink: 0;
+background-color: #f0f0f0;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .icon-box img {
 width: 100%;
@@ -96,4 +101,4 @@ color: #1a1a1a;
 color: #1a1a1a;
 font-size: 18px;
 padding: 10px;
-}
+  }
